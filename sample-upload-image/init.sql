@@ -1,0 +1,6 @@
+CREATE TABLE images (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  url TEXT,
+  description TEXT,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
